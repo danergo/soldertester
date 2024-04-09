@@ -1217,7 +1217,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TR"
+			(property "Reference" "TR1"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1226,14 +1226,15 @@
 				)
 			)
 			(property "Value" "TRANSF1"
-				(at 0 -6.35 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Transformer_THT:Transformer_CHK_EI30-2VA_1xSec"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1446,7 +1447,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1464,7 +1465,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1482,7 +1483,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1704,6 +1705,12 @@
 		(uuid "26602fb5-8a77-442a-8b13-f3255a026224")
 	)
 	(junction
+		(at 127 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b0721a7-dde4-4546-b321-2751a6da3636")
+	)
+	(junction
 		(at 119.38 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1738,6 +1745,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dba10e7-9c0d-4bb1-ac30-cd0d34bc599e")
+	)
+	(junction
+		(at 127 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d08690-a107-48d9-8838-29bcf196e51b")
 	)
 	(junction
 		(at 160.02 83.82)
@@ -1807,6 +1820,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 96.52) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b95bba3-0eab-4d10-8d33-4dc72568f37f")
+	)
+	(wire
+		(pts
 			(xy 196.85 81.28) (xy 196.85 83.82)
 		)
 		(stroke
@@ -1834,6 +1857,16 @@
 			(type default)
 		)
 		(uuid "2eb82eb6-d2fa-415f-bda3-cb04ecd01977")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5a1774-b41b-43ee-bf31-5f16e7100b5b")
 	)
 	(wire
 		(pts
@@ -1997,6 +2030,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd18373-8b98-4a14-a81b-3c26f8f6b369")
+	)
+	(wire
+		(pts
 			(xy 140.97 102.87) (xy 147.32 102.87)
 		)
 		(stroke
@@ -2017,7 +2060,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 102.87) (xy 133.35 102.87)
+			(xy 127 83.82) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba897e17-690e-4ad9-b052-25eefe93f535")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 127 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 133.35 83.82)
+			(xy 124.46 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 121.92 81.28 0)
 			(effects
 				(font
@@ -2264,7 +2317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 196.85 97.79 0)
 			(effects
 				(font
@@ -2404,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 147.955 87.63 0)
 			(effects
 				(font
@@ -2453,7 +2506,8 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 93.98 78.74 90)
+		(at 93.98 78.74 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2461,7 +2515,7 @@
 		(dnp no)
 		(uuid "2e54c6dd-3bf4-4b30-b45a-b1f461648c79")
 		(property "Reference" "F1"
-			(at 94.234 75.946 90)
+			(at 93.726 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_FAB_0031-355x_Horizontal_Closed"
 			(at 93.98 80.518 90)
 			(effects
 				(font
@@ -2520,24 +2574,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Transformer:TRANSF1")
-		(at 104.14 83.82 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 121.92 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c62a302-ee29-4c54-a669-fb415f985c84")
-		(property "Reference" "TR1"
-			(at 104.14 77.47 0)
+		(uuid "384d9d7f-bd41-4f96-89cc-adf460dd5701")
+		(property "Reference" "J5"
+			(at 121.666 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TRANSF1"
-			(at 104.14 76.2 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 121.92 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2599,76 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd71371-5ce2-4863-b552-4bfcf1f23d95")
+		)
+		(pin "2"
+			(uuid "db9e6c37-4f4a-4f79-8269-3dd354e45e55")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e/818f33c2-2e88-4420-8011-4d1b382da8bd"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transformer:TRANSF1")
+		(at 104.14 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c62a302-ee29-4c54-a669-fb415f985c84")
+		(property "Reference" "TR1"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TRANSF1"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Transformer_THT:Transformer_CHK_EI30-2VA_1xSec"
 			(at 104.14 83.82 0)
 			(effects
 				(font
@@ -2575,13 +2698,13 @@
 		(pin "1"
 			(uuid "194867ca-de77-4157-8c34-391317554c2b")
 		)
-		(pin "2"
+		(pin "9"
 			(uuid "e0cfbd6d-bf9d-4bb9-8606-c7e467ff2915")
 		)
-		(pin "4"
+		(pin "5"
 			(uuid "a6238667-c995-4db2-810e-3ed49c764a03")
 		)
-		(pin "3"
+		(pin "7"
 			(uuid "71abae2a-ea39-430b-87b9-9def89db833a")
 		)
 		(instances
@@ -2621,7 +2744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 116.84 81.28 0)
 			(effects
 				(font
@@ -2709,7 +2832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 121.92 86.36 0)
 			(effects
 				(font
@@ -2797,7 +2920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 195.072 90.17 90)
 			(effects
 				(font
@@ -2865,7 +2988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 116.84 86.36 0)
 			(effects
 				(font
@@ -2952,7 +3075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
 			(at 81.28 78.74 0)
 			(effects
 				(font
@@ -3022,7 +3145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 160.9852 97.79 0)
 			(effects
 				(font
@@ -3092,7 +3215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 185.1152 97.79 0)
 			(effects
 				(font
@@ -3162,7 +3285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 134.3152 97.79 0)
 			(effects
 				(font

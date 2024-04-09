@@ -212,6 +212,193 @@
 				)
 			)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -332,6 +519,169 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1133,6 +1483,385 @@
 				)
 			)
 		)
+		(symbol "Isolator:LTV-827"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LTV-827"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN DC Dual Optocoupler"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LTV-827_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 4.445 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 2.54 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LTV-827_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTV-827_2_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -1616,10 +2345,34 @@
 		)
 	)
 	(junction
+		(at 50.8 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "275788a8-3a00-4582-9e54-7c21d2bb9ab3")
+	)
+	(junction
+		(at 73.66 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ace4eb4-88d2-463b-90a2-52acf6f598b0")
+	)
+	(junction
 		(at 144.78 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "457b0103-1ee1-44b9-b5d2-12278d434765")
+	)
+	(junction
+		(at 50.8 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d33fe4-e233-46de-9bea-b432e62cedcb")
+	)
+	(junction
+		(at 50.8 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f2bea7a-b89c-4897-837e-37f3785f08cd")
 	)
 	(junction
 		(at 99.06 96.52)
@@ -1645,6 +2398,18 @@
 		(color 0 0 0 0)
 		(uuid "d0ae60b7-2f28-4192-88ef-4123db625b89")
 	)
+	(junction
+		(at 50.8 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d653b7d8-1f48-40e1-b573-6a32efd9aa33")
+	)
+	(junction
+		(at 73.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb1b9b62-9158-4e27-954e-8b78a00c987a")
+	)
 	(no_connect
 		(at 167.64 104.14)
 		(uuid "335ea847-8dbd-4f2b-8532-14038fef39bc")
@@ -1659,6 +2424,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 120.65) (xy 38.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3aaa45-2fe8-47cd-a1f1-2801454c6002")
+	)
+	(wire
+		(pts
 			(xy 170.18 88.9) (xy 167.64 88.9)
 		)
 		(stroke
@@ -1669,13 +2444,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 118.11) (xy 104.14 118.11)
+			(xy 50.8 96.52) (xy 58.42 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10feb31b-32b2-47b6-95cb-83651669bbfe")
+		(uuid "127b3953-b6d3-4448-b1b5-4f512c63532e")
 	)
 	(wire
 		(pts
@@ -1689,6 +2464,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 123.19) (xy 104.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfe3c75-8452-4c35-b3d1-cfe0c88716b4")
+	)
+	(wire
+		(pts
+			(xy 50.8 123.19) (xy 58.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f818dfd-058d-4286-8adc-7f3a6b20b8ca")
+	)
+	(wire
+		(pts
 			(xy 102.87 91.44) (xy 121.92 91.44)
 		)
 		(stroke
@@ -1699,7 +2494,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 135.89) (xy 109.22 101.6)
+			(xy 58.42 88.9) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d2ccea-5dd7-4485-ad3d-f307ec427839")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 109.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1729,6 +2534,36 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 88.9) (xy 38.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6abb9d-99a3-4b12-bd9e-748eb34c5939")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 38.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420030ce-5849-4d9d-938c-f4f00bad8572")
+	)
+	(wire
+		(pts
+			(xy 38.1 123.19) (xy 50.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f69f26-18b3-44f4-8e2c-fc353c9923fe")
+	)
+	(wire
+		(pts
 			(xy 175.26 82.55) (xy 175.26 93.98)
 		)
 		(stroke
@@ -1749,6 +2584,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 115.57) (xy 38.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51659012-51c6-4fc0-8c2e-6e7381db9448")
+	)
+	(wire
+		(pts
 			(xy 170.18 73.66) (xy 214.63 73.66)
 		)
 		(stroke
@@ -1756,6 +2601,16 @@
 			(type default)
 		)
 		(uuid "5413fe50-ee0d-499b-a9fc-9dad133fa2ac")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 38.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d41d47-73d6-4cb5-8f94-6b9cb6ffb0ad")
 	)
 	(wire
 		(pts
@@ -1769,7 +2624,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 153.67) (xy 113.03 104.14)
+			(xy 58.42 115.57) (xy 50.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e37be1d-4881-4970-a133-50ab1a8657d0")
+	)
+	(wire
+		(pts
+			(xy 113.03 104.14) (xy 113.03 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 110.49) (xy 104.14 118.11)
+			(xy 104.14 110.49) (xy 104.14 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1809,13 +2674,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 96.52) (xy 99.06 96.52)
+			(xy 48.26 115.57) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "877199fe-b651-434f-b474-b9807001734f")
+		(uuid "81e8f93b-5d23-4dea-a874-9ca83d3ae071")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a8e1f6-8581-44cf-a43d-bad7d4b23d69")
 	)
 	(wire
 		(pts
@@ -1939,6 +2814,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 96.52) (xy 99.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c5e273-25fe-4013-84b2-93fcd9a4134d")
+	)
+	(wire
+		(pts
 			(xy 100.33 91.44) (xy 102.87 91.44)
 		)
 		(stroke
@@ -1979,7 +2864,27 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 153.67) (xy 113.03 153.67)
+			(xy 40.64 88.9) (xy 38.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c326c057-befc-4e64-97e3-e33ea3827e6d")
+	)
+	(wire
+		(pts
+			(xy 38.1 96.52) (xy 50.8 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00a640c-fb4c-4351-b5f9-f6046436bd44")
+	)
+	(wire
+		(pts
+			(xy 82.55 166.37) (xy 113.03 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 135.89) (xy 109.22 135.89)
+			(xy 82.55 148.59) (xy 109.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2019,6 +2924,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 91.44) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9156cc-8717-45de-b286-47819974ad2c")
+	)
+	(wire
+		(pts
 			(xy 175.26 82.55) (xy 182.88 82.55)
 		)
 		(stroke
@@ -2026,6 +2941,16 @@
 			(type default)
 		)
 		(uuid "ee55096d-cbcb-4a27-87ba-d4e567804d57")
+	)
+	(wire
+		(pts
+			(xy 58.42 118.11) (xy 58.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f287f342-9eb1-449e-bdd8-e83d01669870")
 	)
 	(wire
 		(pts
@@ -2114,6 +3039,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 50.8 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144b4b24-83cd-4f13-b835-18b8e06da968")
+		(property "Reference" "D10"
+			(at 53.34 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 53.34 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fd138ef-7106-4212-ab0b-9951b210828d")
+		)
+		(pin "1"
+			(uuid "044f9f15-b1d7-463f-9c64-16bc1565af48")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 187.96 85.09 0)
 		(mirror y)
@@ -2141,7 +3154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 187.96 85.09 0)
 			(effects
 				(font
@@ -2247,6 +3260,75 @@
 			(project "SolderTestPCB"
 				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 33.02 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1725db4d-7035-4c05-ad2e-4c97567d959a")
+		(property "Reference" "J8"
+			(at 32.766 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
+			(at 33.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f34133-83ce-4ad5-a766-b87fe785e20a")
+		)
+		(pin "2"
+			(uuid "b1520695-59f0-4b23-8135-9d25eb1e4e8a")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2386,6 +3468,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:LTV-827")
+		(at 66.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ee7836-8bc1-4baa-8483-244146827c1d")
+		(property "Reference" "U4"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-827"
+			(at 66.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "30274c9b-8776-4695-b5da-35d2b0ff272d")
+		)
+		(pin "2"
+			(uuid "05bc2655-55aa-4122-9a7c-a4e39a236fde")
+		)
+		(pin "1"
+			(uuid "2ff0938b-add9-491d-a838-aa363adf3b5a")
+		)
+		(pin "5"
+			(uuid "5ca0abc4-36f2-4100-b100-63d9e8acfb68")
+		)
+		(pin "7"
+			(uuid "f7a7d83e-33d8-4074-a28e-dada4f24043f")
+		)
+		(pin "8"
+			(uuid "0649bf3d-aa3a-4486-9b9e-fe9c07c6bd15")
+		)
+		(pin "3"
+			(uuid "f95bbf72-458d-4af1-a99a-578ca1a31471")
+		)
+		(pin "4"
+			(uuid "54c6cacf-16b7-4ab7-9fa7-8acd8d614a86")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 83.82 0)
 		(mirror y)
@@ -2414,7 +3585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 207.518 83.82 90)
 			(effects
 				(font
@@ -2522,6 +3693,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Isolator:LTV-827")
+		(at 66.04 120.65 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed941c1-d9d6-4bb7-9c7c-a135402fd41b")
+		(property "Reference" "U4"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-827"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"
+			(at 66.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "30274c9b-8776-4695-b5da-35d2b0ff272d")
+		)
+		(pin "2"
+			(uuid "05bc2655-55aa-4122-9a7c-a4e39a236fde")
+		)
+		(pin "1"
+			(uuid "2ff0938b-add9-491d-a838-aa363adf3b5a")
+		)
+		(pin "5"
+			(uuid "5ca0abc4-36f2-4100-b100-63d9e8acfb68")
+		)
+		(pin "7"
+			(uuid "f7a7d83e-33d8-4074-a28e-dada4f24043f")
+		)
+		(pin "8"
+			(uuid "0649bf3d-aa3a-4486-9b9e-fe9c07c6bd15")
+		)
+		(pin "3"
+			(uuid "f95bbf72-458d-4af1-a99a-578ca1a31471")
+		)
+		(pin "4"
+			(uuid "54c6cacf-16b7-4ab7-9fa7-8acd8d614a86")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42584dfa-ea45-45df-9686-11d44e2e794e")
+		(property "Reference" "R6"
+			(at 44.45 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 44.45 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 44.45 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41fba09b-ebb4-4e45-8404-458b1dead5f3")
+		)
+		(pin "1"
+			(uuid "e0be9fc1-5203-4f24-8c34-38a02f01433a")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 99.06 107.95 90)
 		(mirror x)
@@ -2616,7 +3944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -2726,6 +4054,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 33.02 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60859348-492f-4432-b4d2-ea9758ec030d")
+		(property "Reference" "J6"
+			(at 32.766 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 33.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e392b81c-b5b4-41ba-9cf0-7ee97ace84ea")
+		)
+		(pin "2"
+			(uuid "fd47afa5-01d9-4315-9a1c-08f1449d7951")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 76.2 270)
 		(unit 1)
@@ -2794,6 +4191,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 73.66 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89cba874-8e54-4e4a-8c60-d7ef7a137a30")
+		(property "Reference" "R7"
+			(at 75.565 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 75.565 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 71.882 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b8594fe-53cb-48f4-966d-bc3b786c7f18")
+		)
+		(pin "2"
+			(uuid "fc1ceaed-fdb9-409c-8682-6e08a12f7cf7")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Photo")
 		(at 96.52 91.44 90)
 		(mirror x)
@@ -2819,7 +4286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
 			(at 102.87 92.71 90)
 			(effects
 				(font
@@ -2955,7 +4422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 219.71 76.2 0)
 			(effects
 				(font
@@ -3019,7 +4486,7 @@
 			)
 		)
 		(property "Value" "CON_INPUT"
-			(at 92.71 107.696 0)
+			(at 92.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +4494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -3073,6 +4540,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fa3716c-5b54-485b-8354-435acba2dadc")
+		(property "Reference" "#PWR020"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36b46b4f-9b21-452e-9405-77402a997551")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 73.66 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac033e26-30ac-4ef8-86c5-2c651ef9545d")
+		(property "Reference" "#PWR019"
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bf42adb-42b8-4c14-936e-b7b26529decf")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 210.82 78.74 270)
 		(unit 1)
@@ -3098,7 +4696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 210.82 76.962 90)
 			(effects
 				(font
@@ -3141,6 +4739,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 50.8 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b441870a-7076-488f-9a25-0f1db9af56b4")
+		(property "Reference" "D6"
+			(at 53.34 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 53.34 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33c063fe-e023-45da-be35-f36e378d9830")
+		)
+		(pin "1"
+			(uuid "14f3845c-ee94-4817-b7ad-7d7c1faf1b25")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 181.61 99.06 0)
 		(unit 1)
@@ -3166,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 181.61 93.98 0)
 			(effects
 				(font
@@ -3209,6 +4895,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 44.45 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5243de2-29f8-49aa-a088-06f5842b3434")
+		(property "Reference" "R10"
+			(at 44.45 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 44.45 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 44.45 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44c8154d-e789-4c5a-9677-8fa942d2e436")
+		)
+		(pin "1"
+			(uuid "a8fe91b0-06f2-4b7f-8fac-a301851a54e0")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb445c02-a6a1-4343-aec4-4ebe80727c1b")
+		(property "Reference" "R11"
+			(at 75.565 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 75.565 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 71.882 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e77c52c-e257-4f72-89a6-cf2e11d1f181")
+		)
+		(pin "2"
+			(uuid "7da94bbd-18e8-44f2-9bbd-c93658c34d23")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 151.13 68.58 0)
 		(unit 1)
@@ -3236,7 +5060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
 			(at 152.0952 72.39 0)
 			(effects
 				(font
@@ -3373,7 +5197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 101.092 86.36 90)
 			(effects
 				(font
@@ -3442,7 +5266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Module:HOPERF_RFM9XW_THT"
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -3726,8 +5550,139 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec3d1085-738d-4f63-a902-0a7f8b82e246")
+		(property "Reference" "#PWR016"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3bdeb29-1cf8-473f-a428-27ba884f3857")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 73.66 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7e3d4b5-e2ba-4fe8-9705-f73d02ec33eb")
+		(property "Reference" "#PWR015"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b17a7317-82d0-40ee-ae57-82929d8f4adb")
+		)
+		(instances
+			(project "SolderTestPCB"
+				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 69.85 131.445)
+		(at 69.85 144.145)
 		(size 12.7 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -3739,7 +5694,7 @@
 		)
 		(uuid "525a9041-6d36-487d-93ef-76e2dea8509b")
 		(property "Sheetname" "Output0"
-			(at 69.85 130.3684 0)
+			(at 69.85 143.0684 0)
 			(effects
 				(font
 					(size 2 2)
@@ -3749,7 +5704,7 @@
 			)
 		)
 		(property "Sheetfile" "output.kicad_sch"
-			(at 69.85 140.9196 0)
+			(at 69.85 153.6196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +5714,7 @@
 			)
 		)
 		(pin "Control" input
-			(at 82.55 135.89 0)
+			(at 82.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,57 +5732,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 113.665)
-		(size 12.7 8.89)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7544685c-37e6-4b42-bc38-fa5126aeab4a")
-		(property "Sheetname" "Input1"
-			(at 69.85 112.5884 0)
-			(effects
-				(font
-					(size 2 2)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "input.kicad_sch"
-			(at 69.85 123.1396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Signal" output
-			(at 82.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b5cf9ece-6f23-4eaf-9b15-43a9b80e162e")
-		)
-		(instances
-			(project "SolderTestPCB"
-				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 69.85 149.225)
+		(at 69.85 161.925)
 		(size 12.7 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -3839,7 +5744,7 @@
 		)
 		(uuid "766f1a07-b6c9-4dfc-af2a-10aff4e96ec5")
 		(property "Sheetname" "Output1"
-			(at 69.85 148.1484 0)
+			(at 69.85 160.8484 0)
 			(effects
 				(font
 					(size 2 2)
@@ -3849,7 +5754,7 @@
 			)
 		)
 		(property "Sheetfile" "output.kicad_sch"
-			(at 69.85 158.6996 0)
+			(at 69.85 171.3996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +5764,7 @@
 			)
 		)
 		(pin "Control" input
-			(at 82.55 153.67 0)
+			(at 82.55 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,56 +5847,6 @@
 			(project "SolderTestPCB"
 				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 69.85 92.075)
-		(size 12.7 8.89)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b2cce2ce-dfbf-441d-9d00-5058b591a736")
-		(property "Sheetname" "Input0"
-			(at 69.85 90.9984 0)
-			(effects
-				(font
-					(size 2 2)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "input.kicad_sch"
-			(at 69.85 101.5496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Signal" output
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "73273ffa-87cd-4e27-93d7-49a73df10d3b")
-		)
-		(instances
-			(project "SolderTestPCB"
-				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e"
-					(page "3")
 				)
 			)
 		)

@@ -476,7 +476,7 @@
 				)
 			)
 		)
-		(symbol "Isolator:EL817"
+		(symbol "Isolator:LTV-827"
 			(pin_names
 				(offset 1.016)
 			)
@@ -492,7 +492,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "EL817"
+			(property "Value" "LTV-827"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -501,7 +501,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -512,7 +512,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL817.pdf"
+			(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -522,7 +522,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
+			(property "Description" "Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -531,7 +531,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler"
+			(property "ki_keywords" "NPN DC Dual Optocoupler"
 				(at 0 0 0)
 				(effects
 					(font
@@ -549,7 +549,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EL817_0_1"
+			(symbol "LTV-827_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -623,18 +623,6 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
@@ -651,6 +639,18 @@
 					)
 					(stroke
 						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -706,7 +706,7 @@
 					)
 				)
 			)
-			(symbol "EL817_1_1"
+			(symbol "LTV-827_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -753,7 +753,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -771,7 +771,81 @@
 							)
 						)
 					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LTV-827_2_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1144,7 +1218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 130.81 93.218 90)
 			(effects
 				(font
@@ -1218,7 +1292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 137.16 95.25 0)
 			(effects
 				(font
@@ -1284,8 +1358,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 119.38 93.98 0)
-		(mirror y)
+		(at 119.38 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1293,7 +1366,7 @@
 		(dnp no)
 		(uuid "960513a8-cfd2-4079-9f75-0c08f193aee8")
 		(property "Reference" "J5"
-			(at 119.126 99.822 0)
+			(at 119.126 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1374,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 119.38 100.33 0)
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,8 +1382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 93.98 0)
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
+			(at 119.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 93.98 0)
+			(at 119.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1401,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 93.98 0)
+			(at 119.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 158.242 102.87 90)
 			(effects
 				(font
@@ -1430,7 +1503,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:EL817")
+		(lib_id "Isolator:LTV-827")
 		(at 152.4 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1455,7 +1528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 147.32 101.6 0)
 			(effects
 				(font
@@ -1466,7 +1539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.everlight.com/file/ProductFile/EL817.pdf"
+		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -1476,7 +1549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Optocoupler, Vce 35V, DIP-4"
+		(property "Description" "Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -1497,6 +1570,18 @@
 		(pin "4"
 			(uuid "5b9f938f-67ff-4952-bfe6-7edacf81a3ce")
 		)
+		(pin "7"
+			(uuid "81c7a4d9-f5c6-4f0f-906c-5f5978c9d911")
+		)
+		(pin "6"
+			(uuid "e9acebb5-550e-48ec-80b9-3fa67f690aff")
+		)
+		(pin "5"
+			(uuid "99822e20-38c5-454d-a097-05889ad3f985")
+		)
+		(pin "8"
+			(uuid "473eb4be-ff80-4eea-80a3-c7e548c6734d")
+		)
 		(instances
 			(project "SolderTestPCB"
 				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e/b2cce2ce-dfbf-441d-9d00-5058b591a736"
@@ -1504,7 +1589,7 @@
 					(unit 1)
 				)
 				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e/7544685c-37e6-4b42-bc38-fa5126aeab4a"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)

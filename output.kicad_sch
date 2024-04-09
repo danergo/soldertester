@@ -669,7 +669,7 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NPN_BCE"
+		(symbol "Device:Q_NPN_EBC"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -684,7 +684,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NPN_BCE"
+			(property "Value" "Q_NPN_EBC"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -711,7 +711,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NPN transistor, base/collector/emitter"
+			(property "Description" "NPN transistor, emitter/base/collector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -729,7 +729,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NPN_BCE_0_1"
+			(symbol "Q_NPN_EBC_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -790,11 +790,11 @@
 					)
 				)
 			)
-			(symbol "Q_NPN_BCE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+			(symbol "Q_NPN_EBC_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -810,9 +810,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -828,9 +828,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "E"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1628,7 +1628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 153.67 99.06 0)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 153.67 91.44 0)
 			(effects
 				(font
@@ -1794,7 +1794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 165.1 109.728 90)
 			(effects
 				(font
@@ -1841,7 +1841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BCE")
+		(lib_id "Device:Q_NPN_EBC")
 		(at 156.21 107.95 0)
 		(mirror y)
 		(unit 1)
@@ -1860,7 +1860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_BCE"
+		(property "Value" "Q_NPN_EBC"
 			(at 151.13 109.2199 0)
 			(effects
 				(font
@@ -1869,7 +1869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 151.13 105.41 0)
 			(effects
 				(font
@@ -1887,7 +1887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, base/collector/emitter"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -1944,7 +1944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 162.56 91.44 0)
 			(effects
 				(font
@@ -2072,7 +2072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9956b29c-eaab-4e8e-8c28-376bcf87b100")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 116.586 90.678 0)
 			(effects
 				(font
@@ -2089,7 +2089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal"
 			(at 116.84 96.52 0)
 			(effects
 				(font
@@ -2125,11 +2125,11 @@
 		(instances
 			(project "SolderTestPCB"
 				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e/525a9041-6d36-487d-93ef-76e2dea8509b"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 				(path "/3f231ef2-6b13-4d44-9a8c-c6a44054681e/766f1a07-b6c9-4dfc-af2a-10aff4e96ec5"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 164.338 99.06 90)
 			(effects
 				(font
@@ -2239,7 +2239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPST_SANYOU_SRD_Series_Form_A"
 			(at 128.27 96.52 0)
 			(effects
 				(font
